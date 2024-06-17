@@ -1,0 +1,1535 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*font-family: "Poppins", sans-serif;*/
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;	
+}
+body
+{
+	background-color: rgba(135, 206, 235,0.2);
+}
+
+.home
+{
+	height: 120px;
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #ff8fab;
+}
+.home ul
+{
+	margin-top: 20px;
+	margin-left: 80px;
+	list-style-type: none;
+	display: flex;
+	color: white;
+}
+.home .Smedia
+{
+	margin-top: 20px;
+	margin-right: 80px;
+	font-size: 20px;
+	width: 15%;
+	display: flex;
+	justify-content: space-around;
+	color: white;
+}
+							/*IMAGE-SLIDE*/
+
+.img1
+{
+	height: 700px;
+	width: 100%;
+	background-image: url('ice2.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.head1
+{
+	height: 10vh;
+	width: 75%;
+	position: absolute;
+	top: 300px;
+	left: 150px;
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	text-shadow: 0px 0px 5px black;
+}
+
+.head2
+{
+	height: 20vh;
+	width: 75%;
+	line-height: 95px;
+	position: absolute;
+	top: 350px;
+	left: 150px;
+	color: white;
+	font-size: 80px;
+	font-weight: bold;
+	text-shadow: 0px 0px 5px black;
+}
+
+#button1
+{
+	height: 60px;
+	width: 200px;
+	border-radius: 50px;
+	border: 0px;
+	font-size: 17px;
+	font-weight: bold;
+	color: white;
+	background-color: #ff8fab;
+}
+
+
+						/*MENU BAR*/
+
+.menu
+{
+	height: 90px;
+	width: 80%;
+	background-color: white;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content:space-around;
+	position: absolute;
+	top: 73px;
+	left: 120px;
+}
+
+.menu .m1 a
+{
+	font-weight: bold;
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.8);
+	margin-left: 20px;
+}
+.menu .m1 #hh
+{
+	margin: 0px;
+}
+
+.menu font
+{
+
+	color: #ff8fab;
+	font-size: 50px;
+	font-weight: bold;
+}
+.menu span
+{
+	color: skyblue;
+}
+
+.menu .m2 a
+{
+	font-weight: bold;
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.8);
+	margin-left: 20px;
+}
+.title
+{
+	margin-top: 200px;
+}
+
+.title .empty
+{
+	height: 4px;
+	width: 120px;
+	border: 2px solid #ff8fab;
+	background-color: skyblue;
+}
+.title font
+{
+	font-size: 40px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.title2
+{
+	margin-top: 200px;
+	display: none;
+}
+.title2 .empty2
+{
+	display: none;
+	height: 4px;
+	width: 120px;
+	border: 2px solid #ff8fab;
+	background-color: skyblue;
+}
+.title2 font
+{
+	display: none;
+	font-size: 40px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+
+								/*ABOUT US START*/
+
+.aboutus
+{
+	margin: 50px 30px 50px 30px;
+	display: flex;
+	justify-content: space-around;
+}
+.aboutus .about
+{
+	height: 400px;
+	width: 200px;
+	flex-basis: 30%;
+}
+.aboutus .img2
+{
+	border-radius: 10px;
+	height: 500px;
+	width: 200px;
+	flex-basis: 30%;
+	background-image: url('ice6.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.aboutus .about font
+{
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.aboutus .about span
+{
+/*	margin: 10px 0px 10px 0px;*/
+	font-size: 19px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.aboutus .about p
+{
+	text-align: left;
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.aboutus .about #but2
+{
+	border: white;
+	padding: 0 15px;
+	border-radius: 50px;
+	height: 50px;
+	width: 150;
+	letter-spacing: 2px;
+	font-size: 17px;
+	font-weight: bold;
+	color: white;
+	background-color: skyblue;
+}
+
+.aboutus .ourfeatures
+{
+	height: 400px;
+	width: 200px;
+	flex-basis: 30%;
+	
+}
+.aboutus .ourfeatures font
+{
+	font-size: 28px;
+	font-weight: bold;
+}
+.aboutus .ourfeatures p
+{
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.aboutus .ourfeatures i,h3
+{
+	display: inline-block;
+	margin: 10px 10px 10px 0px;
+}
+.aboutus .ourfeatures i
+{
+	font-size: 20px;
+	color: skyblue;
+}
+.aboutus .ourfeatures button
+{
+	border: white;
+	padding: 0 15px;
+	border-radius: 50px;
+	height: 50px;
+	width: 150;
+	letter-spacing: 2px;
+	font-size: 17px;
+	font-weight: bold;
+	color: white;
+	background-color: #ff8fab;
+}
+								/*ABOUT US END*/
+
+							/*VIDEO / IMAGES START*/
+
+.videoimg
+{
+	margin-top: 200px;
+	height: 530px;
+	width: 100%;
+	display: flex;
+}
+.videoimg .vid1
+{
+	flex-basis: 50%;
+	background-image: url('ice3.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.videoimg .img
+{
+	flex-basis: 50%;
+	background-color: #ff8fab;
+}
+
+.videoimg .img .font1 
+{
+	margin-top: 90px;
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	background-color: white;
+}
+.videoimg .img .font1 font
+{
+	display: inline-block;
+	padding-top: 30px;
+	font-size: 25px;
+	font-weight: bold;
+	color: skyblue;
+}
+.videoimg .img h3
+{
+	margin-top: 35px;
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+}
+
+.videoimg .img p
+{
+	margin: 18px 50px 15px 50px;
+	font-size: 16px;
+	color: white;
+}
+
+.videoimg .img button
+{
+	margin-top: 20px;
+	border: white;
+	padding: 0px 15px;
+	border-radius: 50px;
+	height: 50px;
+	width: 150;
+	letter-spacing: 2px;
+	font-size: 17px;
+	font-weight: bold;
+	color: white;
+	background-color: skyblue;
+}
+
+							/*VIDEO / IMAGES START*/
+
+
+							/*Services Start*/
+
+
+.service
+{
+	margin: 50px;
+}
+
+.empty3
+{
+	margin-top: 200px;
+	height: 4px;
+	width: 120px;
+	border: 2px solid #ff8fab;
+	background-color: skyblue;
+}
+
+#htag
+{
+	margin-top: 10px;
+	font-size: 40px;
+	color: rgba(0, 0, 0, 0.8);
+	line-height: 45px;
+}
+#htag2
+{
+	display: none;
+}
+
+.threeimg
+{
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-around;
+}
+.s1
+{
+	height: 330px;
+	width: 350px;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.service .threeimg .s1 .img3
+{
+	margin-top: -90px;
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+	border: 20px solid whitesmoke;
+	border-radius: 100px;
+	background-image: url('ice1.jpg');
+	background-size: cover;
+	background-position: center;
+	box-shadow: 0px 15px 0px #ff8fab;
+}
+
+.service .threeimg .s1 h3
+{
+	margin: 35px 0px 20px 0px;
+	font-size: 23px;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.service .threeimg .s1 p
+{
+	margin: 0px 25px 15px 25px;
+	font-kerning: 20px;
+	color: rgba(0, 0, 0, 0.7);
+
+}
+
+.service .threeimg .s1 span
+{
+	color: skyblue;
+	border-bottom: 1px solid skyblue;
+}
+.s2
+{
+	height: 330px;
+	width: 350px;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.service .threeimg .s2 .img3
+{
+	margin-top: -90px;
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+	border: 20px solid whitesmoke;
+	border-radius: 100px;
+	background-image: url('ice1.jpg');
+	background-size: cover;
+	background-position: center;
+	box-shadow: 0px 15px 0px #ff8fab;
+}
+
+.service .threeimg .s2 h3
+{
+	margin: 35px 0px 20px 0px;
+	font-size: 23px;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.service .threeimg .s2 p
+{
+	margin: 0px 25px 15px 25px;
+	font-kerning: 20px;
+	color: rgba(0, 0, 0, 0.7);
+
+}
+
+.service .threeimg .s2 span
+{
+	color: skyblue;
+	border-bottom: 1px solid skyblue;
+}
+
+.s3
+{
+	height: 330px;
+	width: 350px;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.service .threeimg .s3 .img3
+{
+	margin-top: -90px;
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+	border: 20px solid whitesmoke;
+	border-radius: 100px;
+	background-image: url('ice1.jpg');
+	background-size: cover;
+	background-position: center;
+	box-shadow: 0px 15px 0px #ff8fab;
+}
+
+.service .threeimg .s3 h3
+{
+	margin: 35px 0px 20px 0px;
+	font-size: 23px;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.service .threeimg .s3 p
+{
+	margin: 0px 25px 15px 25px;
+	font-kerning: 20px;
+	color: rgba(0, 0, 0, 0.7);
+
+}
+
+.service .threeimg .s3 span
+{
+	color: skyblue;
+	border-bottom: 1px solid skyblue;
+}
+
+							/*Services End*/
+
+							/*IMAGE COLLAGE START*/
+
+
+.delicious #dtag
+{
+	font-size: 40px;
+	color: rgba(0, 0, 0, 0.8);
+	line-height: 45px;
+}
+.delicious #dtag2
+{
+	display: none;
+	font-size: 40px;
+	color: rgba(0, 0, 0, 0.8);
+	line-height: 45px;
+}
+.delicious .collage
+{
+	margin-top: 70px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.delicious .collage .image1
+{
+	background-image: url('ice1.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	flex-basis: 33.3%;
+}
+
+.delicious .collage .image2
+{
+	background-image: url('ice3.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	flex-basis: 33.3%;
+}
+.delicious .collage .image3
+{
+	background-image: url('ice2.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	flex-basis: 33.3%;
+}
+.delicious .collage .image4
+{
+	background-image: url('ice4.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	flex-basis: 33.3%;
+}
+.delicious .collage .image5
+{
+	background-image: url('ice5.jpeg');
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	flex-basis: 33.3%;
+}
+.delicious .collage .image6
+{
+	background-image: url('ice6.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	flex-basis: 33.3%;
+}
+
+							/*IMAGE COLLAGE END*/
+
+							/*SLIDE START*/
+.border4
+{
+	margin-top: 180px;
+	margin-left: 100px;
+	height: 1px;
+	width: 100px;
+	border: 2px solid #ff8fab;
+	background-color: skyblue;
+}
+.best
+{
+	margin-top: 10px;
+	margin-left: 100px;
+	font-size: 20px;
+	line-height: 40px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.fourimages .best2
+{
+	display: none;
+	margin-top: 10px;
+	font-size: 20px;
+	line-height: 40px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.fourimages .best3
+{
+	display: none;
+	margin-top: 10px;
+	font-size: 20px;
+	line-height: 40px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.fourimg
+{
+	display: flex;
+	margin: 60px 60px 15px 60px;
+	justify-content: space-evenly;
+}
+
+.img9
+{
+	border: 0px;
+	border-radius: 10px;
+	height: 400px;
+	width: 220px;
+	background-color: white;
+}
+.img10
+{
+	border: 0px;
+	border-radius: 10px;
+	margin-left: 10px;
+	height: 400px;
+	width: 220px;
+	background-color: white;
+	
+}
+.img11
+{
+	border: 0px;
+	border-radius: 10px;
+	margin-left: 10px;
+	height: 400px;
+	width: 220px;
+	background-color: white;
+}
+.img12
+{
+	border: 0px;
+	border-radius: 10px;
+	margin-left: 10px;
+	height: 400px;
+	width: 220px;
+	background-color: white;
+}
+.fourimg font
+{
+	margin: 0px;
+	display: inline-block;
+	font-size: 26px;
+	font-weight: bold;
+	padding: 10px;
+	color: black;
+	background-color: #ffafcc;
+	color: white;
+}
+.fourimg .i1
+{
+	border: 17px solid #ffafcc;
+/*	display: inline-block;*/
+	height: 150px;
+	width: 150px;
+	margin-top: -14px;
+	border-radius: 100px;
+	background-image: url('ice1.jpg');
+	background-size: cover;
+	background-position: center;
+/*	box-shadow:  0px 0px 0px 20px #ffafcc inset;*/
+}
+
+.fourimg span
+{
+	font-size: 20px;
+	font-weight: bold;
+	font-size: 23px;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.fourimg button
+{
+	padding: 0px 15px;
+	margin-top: 35px;
+	font-size: 15px;
+	width: 120px;
+	height: 40px;
+	border-radius: 30px;
+	border: white;
+	color: white;
+	background-color: skyblue;
+}
+
+							/*SLIDE END*/
+
+							/*TOP CHEF'S STARTS*/
+
+
+.exp
+{
+	margin-top: 10px;
+	margin-left: 50px;
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 45px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.exp1
+{
+	display: none;
+	margin-top: 10px;
+	margin-left: 50px;
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 45px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.threeimg
+{
+	display: flex;
+	margin: 200px 0px 50px 0px;
+}
+.threeimg .img13
+{
+	width: 350px;
+	height: 320px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.threeimg .img13 .round1
+{
+	margin-top: -100px;
+	height: 200px;
+	width: 200px;
+	border-radius: 200px;
+	border: 15px solid #ffafcc;
+	background-image: url('ice4.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.threeimg .img13 font
+{
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 40px;
+	margin-bottom:10px ;
+	display: inline-block;
+	color: rgba(0, 0, 0, 0.8);
+}
+.threeimg .img13 span
+{
+
+	font-size: 17px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.7);
+}
+.threeimg .img13 i
+{
+	margin:23px 15px 15px 15px;
+	font-size: 40px;
+	border-radius: 50%;
+	color: skyblue;
+	background-color: white;
+}
+
+
+							/*TOP CHEF'S ENDS*/
+
+							/*Footer Start*/
+.border6
+{
+	margin-top: 180px;
+	margin-left: 0px;
+	height: 1px;
+	width: 100px;
+	border: 2px solid #ff8fab;
+	background-color: skyblue;
+}
+.click
+{
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 40px;
+	color: rgba(0, 0, 0, 0.75);
+}
+.click1
+{
+	display: none;
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 40px;
+	color: rgba(0, 0, 0, 0.75);
+}
+
+.quat i
+{
+	margin: 30px;
+	font-size: 80px;
+	color: #ffafcc;
+}
+
+.quat p
+{
+	margin: 20px 270px 10px 270px;
+	font-size: 30px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.footimg 
+{
+	margin: 30px 0px 10px 0px;
+	height: 100px;
+	width: 100px;
+	border-radius: 80px;
+	background-image: url('ice6.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.client
+{
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.pro
+{
+	font-family: "Poppins", sans-serif;
+	font-size: 18px;
+	color: rgba(0, 0, 0, 0.8);
+	margin-bottom: 200px;
+
+}
+.footer2
+{
+	background-color: white;
+	height: 500px;
+
+}
+
+.contact font
+{
+	display: inline-block;
+	margin-top: 100px;
+	color: #ff8fab;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: "Poppins", sans-serif;
+	margin-bottom: 20px;
+}
+.contact span
+{
+	color: skyblue;
+}
+
+.contact i
+{
+	margin: 0px 20px 0px 15px;
+	font-size: 40px;
+	color: skyblue;
+}
+.aboutus1
+{
+	display: flex;
+	justify-content: center;
+	color: rgba(0, 0, 0, 0.8);
+}
+.vl {
+	margin: 15px 10px 10px 10px;
+	border-left: 1px solid black;
+    height: 100px;
+}
+.get h2
+{
+	margin: 10px -20px 0px 0px;
+}
+.get p
+{
+	margin: 10px;
+	text-align: right;
+}
+
+.open h2
+{
+	margin: 10px 0px 0px 0px;
+}
+.open p
+{
+	margin: 10px;
+	text-align: left;
+}
+.bot
+{
+	margin: 10px;
+	font-size: 17px;
+	color: rgba(0, 0, 0, 0.7);
+}
+.bot span
+{
+	color: #ffafcc;
+}
+
+
+
+							/*Footer End*/
+							/*LOGO FOR MEDIA QUERY*/
+
+.logo
+{
+	margin: 0px 20px 0px 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.icream
+{
+	display: none;
+}
+.icream font
+{
+	color: #ff8fab;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: "Poppins", sans-serif;
+}
+.icream span
+{
+	color: skyblue;
+}
+#burger
+{
+	display: none;
+	padding: 8px 15px;
+	height:50px;
+	width: 80px;
+	font-size: 30px;
+	color: rgba(0, 0, 0, 0.7);
+	border: 2px solid rgba(0, 0, 0, 0.5);
+	text-align: center;
+	border-radius: 10px;
+}
+
+									/*LOGO FOR MEDIA QUERY*/
+
+
+									/*MEDIA QUERY - TABLET VIEW*/
+
+@media (max-width:900px)
+{
+	.home
+	{
+		height: 80px;
+	}
+	.menu
+	{
+		display: none;
+	}
+	.icream
+	{
+		display: block;
+	}
+	#burger
+	{
+		display: block;
+	}
+	.head1
+	{
+		height: 10vh;
+		width: 85%;
+		position: absolute;
+		top: 240px;
+		left: 50px;
+		color: white;
+		font-size: 20px;
+		font-weight: bold;
+		text-shadow: 0px 0px 5px black;
+	}
+
+	.head2
+	{
+		line-height: 95px;
+		position: absolute;
+		top: 270px;
+		left: 100px;
+		color: white;
+		font-size: 50px;
+		font-weight: bold;
+		text-shadow: 0px 0px 5px black;
+	}
+	.img1
+	{
+		height: 550px;
+		width: 100%;
+		background-image: url('ice2.jpg');
+		background-size: cover;
+		background-position: center;
+	}
+	.aboutus
+	{
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.aboutus .about
+	{
+		height: 300px;
+		width: 80%;
+		flex-basis: 30%;
+	}
+	.aboutus .ourfeatures
+	{
+		height: 300px;
+		width: 80%;
+		flex-basis: 30%;
+		position: absolute;
+		top: 1950px;
+	}
+	.aboutus .img2
+	{
+		height: 400px;
+		width: 600px;
+		border-radius: 0px;
+		overflow: hidden;
+		position: absolute;
+		background-position: top;
+		top: 1480px;
+		z-index: 1;
+	}
+	.videoimg
+	{
+		height: 470px;
+		width: 100%;
+		position: absolute;
+		background-position: top;
+		top: 2300px;
+	}
+	.videoimg .img .font1
+	{
+		margin-top: 40px;
+	}
+
+	.service
+	{
+		margin: 0px;
+		position: absolute;
+		background-position: top;
+		top: 3000px;
+	}
+	.service .empty3
+	{
+		margin-left: 50px;
+	}
+	.service #htag
+	{
+		margin-left: 50px;
+	}
+
+	.service .threeimg .s1
+	{
+		margin-right: 10px;
+		flex: 1;
+	}
+	.service .threeimg .s2
+	{
+		flex: 1;
+	}
+	.service .threeimg .s3
+	{
+		display: none;
+	}
+	.delicious
+	{
+		margin-top: -300px;
+		height: 1200px;
+		width: 100%;
+		position: absolute;
+		background-position: top;
+		top: 4000px;
+		overflow: hidden;
+		z-index: 1;
+	}
+	.delicious #dtag
+	{
+		display: none;
+	}
+	.delicious #dtag2
+	{
+		display: block;
+	}
+
+	.delicious .collage .image1
+	{
+		height: 250px;
+		flex-basis: 50%;
+	}
+	.delicious .collage .image2
+	{
+		height: 250px;
+		flex-basis: 50%;
+	}
+	.delicious .collage .image3
+	{
+		height: 250px;
+		flex-basis: 50%;
+	}
+	.delicious .collage .image4
+	{
+		height: 250px;
+		flex-basis: 50%;
+	}
+	.delicious .collage .image5
+	{
+		height: 250px;
+		flex-basis: 50%;
+	}
+	.delicious .collage .image6
+	{
+		height: 250px;
+		flex-basis: 50%;
+	}
+	.fourimages
+	{
+		width: 100%;
+		position: absolute;
+		background-position: top;
+		top: 4800px;
+	}
+	.fourimages .best 
+	{
+		display: none;
+	}
+	.fourimages .best2 
+	{
+		display: block;
+		margin: 0px 30px 0px 50px;
+		font-size: 17px;
+	}
+	.border4
+	{
+		margin-top: 180px;
+		margin-left: 50px;
+	}
+	.fourimg .img9
+	{
+		width: 400px;
+		flex-basis: 33%;
+	}
+	.fourimg .img10
+	{
+		width: 400px;
+		flex-basis: 33%;
+	}
+
+	.fourimg .img11 
+	{
+		width: 100px;
+		flex-basis: 33%;
+	}
+	.fourimg .img12 
+	{
+		display: none;
+	}
+	#threeimg
+	{
+		position: absolute;
+		background-position: top;
+		top: 5600px;
+	}
+	#threeimg .exp
+	{
+		display: none;
+	}
+	#threeimg .exp1
+	{
+		display: block;
+		font-size: 35px;
+		font-weight: bold;
+		line-height: 45px;
+		color: rgba(0, 0, 0, 0.8);
+	}
+	.threeimg .img13
+	{
+		flex: 1;
+		margin-right: 5px;
+	}
+	.threeimg #img13
+	{
+		display: none;
+	}
+	.final
+	{
+		position: absolute;
+		top: 6500px;
+	}
+	.border5
+	{
+		margin-left: -20px;
+	}
+	.click
+	{
+		display: none;
+	}
+	.click1
+	{
+		display: block;
+		margin: 30px;
+		font-size: 18px;
+	}
+	.final .quat p
+	{
+		margin: 25px;
+		font-size: 25px;
+	}
+	.footer2
+	{
+		margin: 0px;
+	}
+	.aboutus1
+	{
+		flex-direction: row;
+	}
+
+								/*MEDIA QUERY - MOBIE VIEW*/
+
+@media (max-width:500px)
+{
+	.home
+	{
+		display: none;
+	}
+	.img1
+	{
+		height: 450px;
+		width: 100%;
+		background-image: url('ice2.jpg');
+		background-size: cover;
+		background-position: center;
+	}
+	.head1
+	{
+		height: 10vh;
+		width: 85%;
+		position: absolute;
+		top: 130px;
+		left: 35px;
+		color: white;
+		font-size: 20px;
+		font-weight: bold;
+		text-shadow: 0px 0px 5px black;
+	}
+
+	.head2
+	{
+		margin-right: 30px;
+		line-height: 50px;
+		position: absolute;
+		top: 200px;
+		left: 50px;
+		color: white;
+		font-size: 36px;
+		font-weight: bold;
+		text-shadow: 0px 0px 5px black;
+	}
+	#button1
+	{
+		height: 50px;
+		width: 130px;
+		border-radius: 50px;
+		border: 0px;
+		font-size: 17px;
+		font-weight: bold;
+		color: white;
+		background-color: #ff8fab;
+	}
+	.icream font
+	{
+		color: #ff8fab;
+		font-size: 35px;
+		font-weight: bold;
+	}
+	#burger
+	{
+		height:37px;
+		width: 50px;
+		font-size: 20px;
+		color: rgba(0, 0, 0, 0.7);
+		border: 2px solid rgba(0, 0, 0, 0.5);
+		text-align: center;
+		border-radius: 10px;
+	}
+	.title
+	{
+		display: none;
+	}
+	.title2
+	{
+		display: block;
+		margin-right: 5px;
+		margin-bottom: 80px;
+	}
+	.title2 .empty2
+	{
+		display: block;
+	}
+	.title2 font
+	{
+		display: block;
+		font-size: 25px;
+	}
+
+	.aboutus .about
+	{
+		height: 300px;
+		width: 100%;
+		flex-basis: 30%;
+	}
+	.aboutus .ourfeatures
+	{
+		height: 300px;
+		width: 88%;
+		flex-basis: 30%;
+		position: absolute;
+		top: 1800px;
+	}
+	.aboutus .img2
+	{
+		margin: 30px;
+		height: 50vh;
+		width: 80%;
+		border-radius: 0px;
+		overflow: hidden;
+		position: absolute;
+		background-position: top;
+		top: 1300px;
+		z-index: 1;
+	}
+	.videoimg
+	{
+		flex-direction: column;
+		margin-top: 450px;
+	}
+	.videoimg .vid1
+	{
+		height: 500px;
+		width: 100%;
+		overflow: hidden;
+		position: absolute;	
+		z-index: 1;
+		top: -300px;
+	}
+	.videoimg .img
+	{
+		margin-top: 200px;
+	}
+	.videoimg .img button
+	{
+		margin: 30px;
+	}
+	.service
+	{
+		position: absolute;
+		background-position: top;
+		top: 3300px;
+	}
+	.service #htag
+	{
+		display: none;
+	}
+	.service #htag2
+	{
+		display: block;
+		font-size: 20px;
+		margin-left: 30px;
+	}
+	.service .threeimg .s1
+	{
+		margin-left: 22px;
+		width: 300px;
+	}
+	.service .threeimg .s2
+	{
+		display: none;
+	}
+	.service .threeimg .s3
+	{
+		display: none;
+	}
+	.delicious
+	{
+		height: 1900px;
+		position: absolute;
+		top: 4300px;
+	}
+	.delicious #dtag2
+	{
+		margin: 5px 10px 0px 10px;
+		font-size: 28px;
+		line-height: 35px;
+	}
+	.delicious .collage .image1
+	{
+		flex-basis: 100%;
+	}
+	.delicious .collage .image2
+	{
+		flex-basis: 100%;
+	}
+	.delicious .collage .image3
+	{
+		flex-basis: 100%;
+	}
+	.delicious .collage .image4
+	{
+		flex-basis: 100%;
+	}
+	.delicious .collage .image5
+	{
+		flex-basis: 100%;
+	}
+	.delicious .collage .image6
+	{
+		flex-basis: 100%;
+	}
+	.fourimages
+	{
+		position: absolute;
+		top: 5800px;
+	}
+	.fourimages .border4
+	{
+		margin-left: 30px;
+	}
+	.fourimages .best
+	{
+		display: none;
+	}
+	.fourimages .best2
+	{
+		display: none;
+	}
+	.fourimages .best3
+	{
+		margin-left: 30px;
+		display: block;
+		font-size: 14px;
+	}
+	.fourimages .fourimg .img9
+	{
+		flex-basis: 100%;
+	}
+	.fourimages .fourimg .img10
+	{
+		display: none;
+	}
+
+	.fourimages .fourimg .img11
+	{
+		display: none;
+	}
+	#threeimg
+	{
+		position: absolute;
+		top: 6600px;
+	}
+	#threeimg .exp1
+	{
+		display: block;
+		font-size: 25px;
+		line-height: 35px;
+	}
+	.threeimg #img14
+	{
+		display: none;
+	}
+	.final
+	{
+		position: absolute;
+		top: 7400px;
+	}
+	.final .click1 h1
+	{
+		font-size: 25px;
+	}
+	.final .quat p
+	{
+		font-size: 18px;
+	}
+	.final .footer2 .aboutus1 .get h2
+	{
+		font-size: 20px;
+	}
+	.final .footer2 .aboutus1 .get p
+	{
+		font-size: 17px;
+	}
+	.final .footer2 .aboutus1 .open h2
+	{
+		font-size: 20px;
+	}
+	.final .footer2 .aboutus1 .open p
+	{
+		font-size: 17px;
+	}
+	.final .footer2 .bot
+	{
+		font-size: 18px;
+	}
+
+}
